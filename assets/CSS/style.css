@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+#calcolatore {
+
+
+    border: 3px solid black;
+    max-width: 400px;
+    height: 400px;
+}
+
+
+
+
+#calcolatore h1 {
+    text-transform: uppercase;
+    display: flex;
+
+}
+
+#calcolatore button {
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 2px black;
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: coral;
+    text-shadow: 1px 1px 8px 1px black;
+}
+
+#calcolatore button:hover {
+    padding: 23px;
+    color: white;
+    text-shadow: 2px 1px 8px 3px black;
+}
