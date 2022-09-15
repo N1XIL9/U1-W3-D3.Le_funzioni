@@ -3,13 +3,16 @@ body {
     font-family: sans-serif;
 }
 
+.cont {
+    margin-top: 15%
+}
+
 #container {
     width: 250px;
     background-color: black;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    margin-top: 20px;
     margin: 0 auto;
 }
 
