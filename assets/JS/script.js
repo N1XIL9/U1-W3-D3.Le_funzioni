@@ -1,8 +1,12 @@
-function(calcolatore) {
-    let = a, b
-    a = Number(document.getElementById('age1').value)
-    b = Number(document.getElementById('age2').value)
-}
+function (age1, age2) {
+    a = Number(document.getElementById.value('age1'))
+    b = Number(document.getElementById.value('age2'))
+};
+
+
+
+
+
 
 
 
