@@ -1,12 +1,17 @@
-function (age1, age2) {
-    a = Number(document.getElementById.value('age1'))
-    b = Number(document.getElementById.value('age2'))
-};
+function writeToDisplay(string) {
+    document.getElementById('display').value += string
+}
 
+function showResult() {
+    let result = eval(document.getElementById('display').value)
 
+    document.getElementById('display').value = result
+}
 
+function operazione() {
+    document.getElementById('display').value = eval(document.getElementById('display').value)
+}
 
-
-
-
-
+function cancellDisplay() {
+    document.getElementById('display').value = ''
+}

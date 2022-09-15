@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    
 
-    <div>  
-        <h1>Calcola la differenza di età </h1>
-        <input type="text" placeholder="Inserisci l'età" id="age1">
-        <input type="text" placeholder="Inserisci l'età" id="age2">
-        <button onclick="operazione()" id="risultato"> Ecco il risultato</button> 
+    <div id="container">
+        <input type="text" id="display" placeholder="0">
 
-       
+        <div id="buttons">
+
+            <button onclick="cancellDisplay()">C</button>
+            <button onclick="writeToDisplay('+')">+</button>
+            <button onclick="writeToDisplay('-')">-</button>
+            <button onclick="writeToDisplay('*')">x</button>
+            <button onclick="writeToDisplay('/')">÷</button>
+            <button onclick="writeToDisplay('%')">%</button>
+            <button onclick="writeToDisplay('1')">1</button>
+            <button onclick="writeToDisplay('2')">2</button>
+            <button onclick="writeToDisplay('3')">3</button>
+            <button onclick="writeToDisplay('4')">4</button>
+            <button onclick="writeToDisplay('5')">5</button>
+            <button onclick="writeToDisplay('6')">6</button>
+            <button onclick="writeToDisplay('7')">7</button>
+            <button onclick="writeToDisplay('8')">8</button>
+            <button onclick="writeToDisplay('9')">9</button>
+            <button onclick="writeToDisplay('0')">0</button>
+            <button onclick="operazione()">=</button>
+        </div>
+
+
     </div>
 
-    <script src="./Assets/js/index.js"></script>
-    <script src="./Assets/js/naming.js"></script>
-
+    <script src="./assets/JS/script.js"></script>
 </body>
 </html>
